@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="vanillatilt.js"></script>
+    <script src="script.js" defer></script>
+    <title>CSS 3D</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <pre spellcheck="false" data-tilt class="codeblock codecss" tabindex="0">
+                <h2>> Profil</h2>
+                <code class="language-css"><span class="token selector">#louis</span> <span class="token punctuation">{</span>
+                        <span class="token property">age</span><span class="token punctuation">:</span> 24<span class="token punctuation">;</span>
+                        <span class="token property">hair</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+                        <span class="token property">job</span><span class="token punctuation">:</span> developer<span class="token punctuation">;</span>
+                    <span class="token punctuation">}</span>
+                </code>
+            </pre>
+        </div>
+        <div class="item">
+            <pre spellcheck="false" data-tilt class="codeblock codehtml" tabindex="1">
+                <h2>> Compétences</h2>
+                <code class="language-markup"><span class="token tag balise"><span class="token tag"><span class="token punctuation">&lt;</span>languages</span><span class="token punctuation">&gt;</span></span>
+                    <span class="token tag language balise"><span class="token tag"><span class="token punctuation">&lt;</span>French</span> <span class="token attr-name">confidence</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>100%<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+                    <span class="token tag language balise"><span class="token tag"><span class="token punctuation">&lt;</span>English</span> <span class="token attr-name">confidence</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>60%<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+                    <span class="token tag language balise"><span class="token tag"><span class="token punctuation">&lt;</span>Spanish</span> <span class="token attr-name">confidence</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>15%<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+                    <span class="token tag language balise"><span class="token tag"><span class="token punctuation">&lt;</span>Japanese</span> <span class="token attr-name">confidence</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>10%<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span>
+                <span class="token tag balise"><span class="token tag"><span class="token punctuation">&lt;/</span>languages</span><span class="token punctuation">&gt;</span></span>
+                </code>
+            </pre>
+        </div>
+        <div class="item">
+            <pre class="codeblock codejs" tabindex="0">
+                <h2>> Projets</h2>
+                <code class="language-javascript"><span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword declare">const</span> <span class="variable">project</span> <span class="token keyword declare">of</span> <span class="variable">projects</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    <span class="token operator line">!</span><span class="variable">project</span><span class="token punctuation">.</span><span class="method">isFinished</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">return</span>
+                    <span class="variable line">body</span><span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span><span class="variable">project</span><span class="token punctuation">.</span><span class="method">content</span><span class="token punctuation">)</span>
+                    <span class="token punctuation">}</span>
+                </code>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
